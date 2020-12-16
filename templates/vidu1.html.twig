@@ -1,0 +1,16 @@
+<table border="1" style="width: 80%;">
+    <thead>
+        <tr>
+            <td>Mã</td>
+            <td>Tên</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for loai in loai %}
+        <tr>
+            <td>{{ loai.l_ma }}</td>
+            <td>{{ loai.l_ten }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
